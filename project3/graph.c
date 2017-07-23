@@ -4,6 +4,7 @@
 #include "graph_utils.h"
 #include "graph.h"
 
+/* Function to calculate distance between two points in 2D plane */
 double getDistance(int vi, int vj, int n, double nxy[][2]) {
 	double x1 = nxy[vi][0];
 	double y1 = nxy[vi][1];
@@ -14,10 +15,12 @@ double getDistance(int vi, int vj, int n, double nxy[][2]) {
 	return (sqrt(((x1-x2)*(x1-x2)) + ((y1-y2)*(y1-y2))));	
 }
 
+/* Function to return the cost of the input graph */
 double costOfGraph(int n, Edge_st *AdjList[n]) {
 	double cost = 0;
 	int i = 0;
 	for (i = 0; i < n; i++) {
+		/* Loop through the adjacency list */
 		Edge_st *list = AdjList[i];
 		while (list) {
 			cost += list->val;
@@ -27,6 +30,7 @@ double costOfGraph(int n, Edge_st *AdjList[n]) {
 	return cost;
 }
 
+/* Function to return random samples of x and y co-ordinates */
 void getRandomSamples(int n, double nxy[][2]) {
 	int i = 0;
 	for (i = 0; i < n; i++) {
@@ -37,6 +41,8 @@ void getRandomSamples(int n, double nxy[][2]) {
 	}
 }
 
+/* Function to obtain the minimum edge among the edges originating from hops at 
+ * 1, 2, 3,..., MAXDIAG-1 distance from source*/
 Edge_st *findMinEdge(int n, int source, int dest, vertices_st *hops[], double nxy[][2]) {
 	Edge_st *edge = (Edge_st *)malloc(sizeof(Edge_st));
 	edge->source = source;
@@ -61,6 +67,7 @@ Edge_st *findMinEdge(int n, int source, int dest, vertices_st *hops[], double nx
 	return edge;
 }
 
+/* Algorithm1 to construct the graph */
 void algo1(int n, Edge_st *FullAdjList[], double nxy[][2], Edge_st *AdjList[n]) {
 	int i = 0;
 	int degree[n];
@@ -68,14 +75,18 @@ void algo1(int n, Edge_st *FullAdjList[], double nxy[][2], Edge_st *AdjList[n]) 
 		degree[i] = 0;
 		AdjList[i] = NULL;
 	}
+	// sort the available edges in increasing order
 	Edge_st * list = getSortedEdgeList(n, FullAdjList);
 	Edge_st *l = list;
 	Edge_st *l_parent = NULL;
+	// repeat until graph is connected and list of edges is valid
 	while (isGraphConnected(n, AdjList) != -2 && l) {
 		Edge_st *edge = l;
 		int vi = edge->source;
 		int vj = edge->dest;
-		if (degree[vi] < 3 || degree[vj] < 3) {
+		// get the smallest edge and add to the graph if degree of origin or destination
+		// is less than MAXDEGREE
+		if (degree[vi] < MAXDEGREE || degree[vj] < MAXDEGREE) {
 			if (l_parent == NULL) {
 				list = list->next;
 				l = list;
@@ -105,6 +116,8 @@ void algo1(int n, Edge_st *FullAdjList[], double nxy[][2], Edge_st *AdjList[n]) 
 	printf("STAGE 1: graph\n");
 	printGraph(n, AdjList);
 
+	// looped through list but could not connect the graph fully
+	// use the edge originating from index or ending at index and add to graph
 	int index = isGraphConnected(n, AdjList);
 	while (index >= 0) {
 		Edge_st *edge = list;
@@ -244,6 +257,7 @@ int main() {
 	/*for (i = 0; i < n; i++) {
 		scanf("%lf %lf", &nxy[i][0], &nxy[i][1]);
 	}*/
+	// random samples with n
 	getRandomSamples(n, nxy);
 
 	Edge_st *FullAdjList[n];
@@ -261,9 +275,12 @@ int main() {
 		}
 	}
 
+	// output paramenter to algorithm
 	Edge_st *AdjList[n];
+	// algo1
 	algo1(n, FullAdjList, nxy, AdjList);
 	printf("Graph Obtained with CONSTRAINTS: \n ");
+	// print obtained graph
 	printGraph(n, AdjList);
 	printf("Cost of the graph: %lf\n", costOfGraph(n, AdjList));
 	return 1;

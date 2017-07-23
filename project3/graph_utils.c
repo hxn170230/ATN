@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
+// Function to print list of edges
 void print(Edge_st *list) {
 	while (list != NULL) {
 		printf("(%d, %d, %lf) --> ", list->source, list->dest, list->val);
@@ -11,6 +12,7 @@ void print(Edge_st *list) {
 	printf("NULL\n");
 }
 
+// Function to print graph
 void printGraph(int n, Edge_st *AdjList[]) {
 	int i = 0;
 	for (i = 0; i < n; i++) {
@@ -20,6 +22,7 @@ void printGraph(int n, Edge_st *AdjList[]) {
 	}
 }
 
+// Function to find the length of list
 int getLength(Edge_st *list) {
 	int ret = 0;
 	while (list != NULL) {
@@ -29,6 +32,7 @@ int getLength(Edge_st *list) {
 	return ret;
 }
 
+// Function to merge two sorted lists
 Edge_st *merge(Edge_st *first, Edge_st *second) {
 	Edge_st *merged = NULL;
 	Edge_st *temp = NULL;
@@ -69,6 +73,7 @@ Edge_st *merge(Edge_st *first, Edge_st *second) {
 	return merged;
 }
 
+// Function to sort a list
 Edge_st *mergeSort(Edge_st *list, int start, int end) {
 	if (end-start == 0) {
 		return list;
@@ -96,11 +101,13 @@ Edge_st *mergeSort(Edge_st *list, int start, int end) {
 	}
 }
 
+// Sort wrapper function
 Edge_st *sortList(Edge_st *list) {
 	int n = getLength(list);
 	return mergeSort(list, 0, n-1);
 }
 
+// Function to return the list of sorted edges in increasing order
 Edge_st *getSortedEdgeList(int n, Edge_st *FullAdjList[n]) {
 	int i = 0;
 	Edge_st *list = NULL;
@@ -121,6 +128,7 @@ Edge_st *getSortedEdgeList(int n, Edge_st *FullAdjList[n]) {
 	return list;
 }
 
+// Queue insert
 void insert(queue_st *q, int vertex) {
 	if (q->back == (q->front+1)%1000) {
 		printf("Queue full\n");
@@ -131,7 +139,8 @@ void insert(queue_st *q, int vertex) {
 	}
 }
 
- int remove_q(queue_st *q) {
+// Queue remove
+int remove_q(queue_st *q) {
 	if (q->back == q->front) {
 		return -1;
 	} else {
@@ -141,6 +150,7 @@ void insert(queue_st *q, int vertex) {
 	}
 }
 
+// Function the check connectivity of graph using BFS
 int isGraphConnected(int n, Edge_st *AdjList[n]) {
 	int visited[n];
 	int i = 0;
@@ -185,6 +195,7 @@ int isGraphConnected(int n, Edge_st *AdjList[n]) {
 	return -2;
 }
 
+// Function to print the Hop matrix
 void printHops(int n, int hops[][n]) {
 	int i = 0;
 	int j = 0;
@@ -196,6 +207,7 @@ void printHops(int n, int hops[][n]) {
 	}
 }
 
+// Function to initialize hop matrix
 void initialize(int n, Edge_st *AdjList[n], int hops[][n]) {
 	int i = 0;
 	int j = 0;
@@ -217,8 +229,8 @@ void initialize(int n, Edge_st *AdjList[n], int hops[][n]) {
 	}
 }
 
+// Function to return the diameter and source, destination of diameter in the graph
 int getDiameter(int n, Edge_st *AdjList[n], int *s, int *d, int hops[][n]) {
-	// construct the hop matrix
 	int i = 0;
 	int j = 0;
 	int maxDist = 0;
