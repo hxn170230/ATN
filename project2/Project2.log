@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.10)  10 JUL 2017 22:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.10)  11 JUL 2017 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -81,23 +81,114 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count96
+\calc@Bcount=\count97
+\calc@Adimen=\dimen109
+\calc@Bdimen=\dimen110
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count98
+\calc@Cskip=\skip45
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks17
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count111
+\l_MT_multwidth_dim=\dimen120
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen121
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen122
+\l_MT_above_intertext_sep=\dimen123
+\l_MT_below_intertext_sep=\dimen124
+\l_MT_above_shortintertext_sep=\dimen125
+\l_MT_below_shortintertext_sep=\dimen126
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count96
-\float@exts=\toks16
-\float@box=\box28
-\@float@everytoks=\toks17
-\@floatcapt=\box29
+\c@float@type=\count112
+\float@exts=\toks21
+\float@box=\box30
+\@float@everytoks=\toks22
+\@floatcapt=\box31
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks18
-\c@algorithm=\count97
+\@float@every@algorithm=\toks23
+\c@algorithm=\count113
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
@@ -106,48 +197,54 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count98
-\c@ALG@rem=\count99
-\c@ALG@nested=\count100
-\ALG@tlm=\skip43
-\ALG@thistlm=\skip44
-\c@ALG@Lnr=\count101
-\c@ALG@blocknr=\count102
-\c@ALG@storecount=\count103
-\c@ALG@tmpcounter=\count104
-\ALG@tmplength=\skip45
+\c@ALG@line=\count114
+\c@ALG@rem=\count115
+\c@ALG@nested=\count116
+\ALG@tlm=\skip50
+\ALG@thistlm=\skip51
+\c@ALG@Lnr=\count117
+\c@ALG@blocknr=\count118
+\c@ALG@storecount=\count119
+\c@ALG@tmpcounter=\count120
+\ALG@tmplength=\skip52
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (./Project2.aux)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+(./Project2.aux)
 \openout1 = `Project2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-\c@lstlisting=\count105
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+\c@lstlisting=\count121
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen109
-\scratchbox=\box30
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen110
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count122
+\scratchdimen=\dimen127
+\scratchbox=\box32
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen128
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -195,433 +292,175 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
-
 (./Project2.toc)
 \tf@toc=\write3
 \openout3 = `Project2.toc'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 20.
  [1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (73.62451pt too wide) in paragraph at lines 127--128
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+ [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 187.
 
-[3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 167.
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
- [4]
-Overfull \hbox (34.2041pt too wide) in paragraph at lines 190--191
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
+ [5]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
 
-
-Overfull \hbox (145.89526pt too wide) in paragraph at lines 201--202
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (349.56738pt too wide) in paragraph at lines 202--203
+Overfull \hbox (115.19934pt too wide) in paragraph at lines 222--223
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[5]
-Overfull \hbox (244.44629pt too wide) in paragraph at lines 203--204
+
+Overfull \hbox (44.79944pt too wide) in paragraph at lines 223--224
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] 
  []
 
-
-Overfull \hbox (106.47485pt too wide) in paragraph at lines 204--206
-[][][][][][][][][][][][][][][][][] 
- []
-
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 216.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 236.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 216.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 236.
 
-Overfull \hbox (27.63403pt too wide) in paragraph at lines 219--220
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (145.89526pt too wide) in paragraph at lines 229--230
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (356.13745pt too wide) in paragraph at lines 230--231
+Overfull \hbox (119.59933pt too wide) in paragraph at lines 250--251
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [6]
-Overfull \hbox (244.44629pt too wide) in paragraph at lines 263--264
+Overfull \hbox (44.79944pt too wide) in paragraph at lines 283--284
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] 
  []
 
-
-Overfull \hbox (113.04492pt too wide) in paragraph at lines 264--265
-[][][][][][][][][][][][][][][][][][][] 
+[7] [8] [9]
+Overfull \hbox (62.39941pt too wide) in paragraph at lines 499--500
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[7]
-Overfull \hbox (113.04492pt too wide) in paragraph at lines 283--284
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 508.
+
+Overfull \hbox (53.59943pt too wide) in paragraph at lines 513--514
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.59949pt too wide) in paragraph at lines 514--515
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (150.39929pt too wide) in paragraph at lines 515--516
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (40.77417pt too wide) in paragraph at lines 310--311
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (73.62451pt too wide) in paragraph at lines 317--318
+Overfull \hbox (119.59933pt too wide) in paragraph at lines 516--517
 [][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[8]
-Overfull \hbox (152.46533pt too wide) in paragraph at lines 324--325
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (152.46533pt too wide) in paragraph at lines 330--331
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (99.90479pt too wide) in paragraph at lines 339--340
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (40.77417pt too wide) in paragraph at lines 340--341
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (159.0354pt too wide) in paragraph at lines 354--355
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (145.89526pt too wide) in paragraph at lines 358--359
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-[9]
-Overfull \hbox (14.4939pt too wide) in paragraph at lines 364--365
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.4939pt too wide) in paragraph at lines 365--366
-[][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (99.90479pt too wide) in paragraph at lines 370--371
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (145.89526pt too wide) in paragraph at lines 374--375
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.4939pt too wide) in paragraph at lines 380--381
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.4939pt too wide) in paragraph at lines 381--382
-[][][][][][][][][][][] 
  []
 
 [10]
-Overfull \hbox (159.0354pt too wide) in paragraph at lines 441--442
+Overfull \hbox (84.39938pt too wide) in paragraph at lines 582--583
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (84.39938pt too wide) in paragraph at lines 612--613
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[11]
-Overfull \hbox (86.76465pt too wide) in paragraph at lines 446--447
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
 
-
-Overfull \hbox (34.2041pt too wide) in paragraph at lines 450--451
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (60.48438pt too wide) in paragraph at lines 451--452
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (21.06396pt too wide) in paragraph at lines 458--459
-[][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (113.04492pt too wide) in paragraph at lines 465--466
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (73.62451pt too wide) in paragraph at lines 466--467
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (80.19458pt too wide) in paragraph at lines 468--469
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (73.62451pt too wide) in paragraph at lines 469--470
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (145.89526pt too wide) in paragraph at lines 476--477
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (270.72656pt too wide) in paragraph at lines 477--478
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (53.9143pt too wide) in paragraph at lines 482--483
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (53.9143pt too wide) in paragraph at lines 484--485
-[][][][][][][][][][][][][][][][][][] 
- []
-
-[12]
-Overfull \hbox (80.19458pt too wide) in paragraph at lines 488--489
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (257.58643pt too wide) in paragraph at lines 491--492
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (191.88574pt too wide) in paragraph at lines 492--493
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (402.12793pt too wide) in paragraph at lines 493--494
+Overfull \hbox (22.79947pt too wide) in paragraph at lines 616--617
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (356.13745pt too wide) in paragraph at lines 494--495
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (60.48438pt too wide) in paragraph at lines 513--514
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[13]
-Overfull \hbox (47.34424pt too wide) in paragraph at lines 554--555
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (67.05444pt too wide) in paragraph at lines 558--559
-[][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (303.5769pt too wide) in paragraph at lines 560--561
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (1.35376pt too wide) in paragraph at lines 561--562
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[14]
-Overfull \hbox (73.62451pt too wide) in paragraph at lines 565--566
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (67.05444pt too wide) in paragraph at lines 566--567
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (40.77417pt too wide) in paragraph at lines 567--568
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.4939pt too wide) in paragraph at lines 574--575
-[][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (80.19458pt too wide) in paragraph at lines 576--577
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (139.3252pt too wide) in paragraph at lines 589--590
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (303.5769pt too wide) in paragraph at lines 590--591
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (211.59595pt too wide) in paragraph at lines 594--595
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (53.9143pt too wide) in paragraph at lines 600--601
-[][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (47.34424pt too wide) in paragraph at lines 602--603
-[][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (113.04492pt too wide) in paragraph at lines 603--604
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (1.35376pt too wide) in paragraph at lines 604--605
-[][][][][][][][][][][][][][] 
- []
-
-[15]
-Overfull \hbox (257.58643pt too wide) in paragraph at lines 605--606
+Overfull \hbox (53.59943pt too wide) in paragraph at lines 627--628
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (237.87622pt too wide) in paragraph at lines 606--607
+Overfull \hbox (40.39944pt too wide) in paragraph at lines 628--629
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (73.62451pt too wide) in paragraph at lines 607--608
-[][][][][][][][][] 
- []
-
-
-Overfull \hbox (73.62451pt too wide) in paragraph at lines 609--610
-[][][][][][][][][] 
- []
-
-
-Overfull \hbox (244.44629pt too wide) in paragraph at lines 611--612
+Overfull \hbox (44.79944pt too wide) in paragraph at lines 633--634
 [][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (178.7456pt too wide) in paragraph at lines 613--614
+Overfull \hbox (0.7995pt too wide) in paragraph at lines 635--636
 [][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (191.88574pt too wide) in paragraph at lines 614--615
+Overfull \hbox (9.59949pt too wide) in paragraph at lines 636--637
 [][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (165.60547pt too wide) in paragraph at lines 616--617
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (7.92383pt too wide) in paragraph at lines 617--618
-[][][][][][][][][][][][] 
- []
-
-<ReliabilityvsProbability.pdf, id=60, 845.1575pt x 597.23125pt>
+<ReliabilityvsProbability.pdf, id=52, 845.1575pt x 597.23125pt>
 File: ReliabilityvsProbability.pdf Graphic file (type pdf)
 
 <use ReliabilityvsProbability.pdf>
-Package pdftex.def Info: ReliabilityvsProbability.pdf used on input line 623.
+Package pdftex.def Info: ReliabilityvsProbability.pdf used on input line 645.
 (pdftex.def)             Requested size: 360.0pt x 254.39859pt.
 
-<kvsreliability.pdf, id=61, 598.235pt x 846.16125pt>
+<kvsreliability.pdf, id=53, 598.235pt x 846.16125pt>
 File: kvsreliability.pdf Graphic file (type pdf)
  <use kvsreliability.pdf>
-Package pdftex.def Info: kvsreliability.pdf used on input line 628.
+Package pdftex.def Info: kvsreliability.pdf used on input line 650.
 (pdftex.def)             Requested size: 360.0pt x 509.1984pt.
 
 
-LaTeX Warning: Float too large for page by 7.12733pt on input line 631.
+LaTeX Warning: Float too large for page by 7.12733pt on input line 653.
 
-[16] [17 <./ReliabilityvsProbability.pdf>] [18 <./kvsreliability.pdf
+[11] [12 <./ReliabilityvsProbability.pdf>] [13 <./kvsreliability.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./kvsreliability.pdf): PDF i
 nclusion: invalid other resource which is no dict (key 'ProcSets', type <array>
 ); ignored.
 >] (./Project2.aux) ) 
 Here is how much of TeX's memory you used:
- 3369 strings out of 493014
- 49245 string characters out of 6133351
- 135749 words of memory out of 5000000
- 6878 multiletter control sequences out of 15000+600000
- 9272 words of font info for 33 fonts, out of 8000000 for 9000
+ 4872 strings out of 493014
+ 70287 string characters out of 6133351
+ 198191 words of memory out of 5000000
+ 8343 multiletter control sequences out of 15000+600000
+ 11394 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,32p,583b,1397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,49p,802b,1449s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
-10.pfb>
-Output written on Project2.pdf (18 pages, 317092 bytes).
+nts/cm/cmbx6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cmextra/cmex8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Project2.pdf (13 pages, 399719 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,13 +4,32 @@
 \date{July 10 2017}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
+\lstset{
+basicstyle=\tiny
+numbers=left, 
+numberstyle=\small, 
+numbersep=8pt,
+tabsize=1,
+language=C,}
 \begin{document}
 \maketitle
  \tableofcontents
  \section{Description}
- 
+Given is a network of 'N' sites, visualised as a graph of 'N' nodes with undirected edges between nodes. Probability of each link is calculated based on ID(2021346835) in the following way.
+\begin{equation}
+	 p_i = p^{\ceil*{\frac{d_i}{3}}}
+\end{equation}
+where d\textsubscript{i} is the i\textsuperscript{th} digit in ID.
+ \par
+ As per reliability requirements, system is considered operational if the graph is connected based on link states. State of each link is either UP or DOWN. If UP state is denoted by 0, and DOWN state is denoted by 1, combination of states of all links at a particular point in time would be one of [0, $2^{N}$) integer values. Therefore all possible combinations with one site failure would be power of 2, all possible combinations with two site failure would be integers with 2 bits set to 1. Generalising this, all possible combinations with 'i' link failures would be integers with 'i' bits among 'N' bits set to 1. We denote this representation by linked list(for dynamic memory management since combinations are many) of character strings(combination) of 0s and 1s in the algorithm.
+ \par
+Exhaustive enumeration gives all possible combinations with link failures in [0, N]. For each combination, algorithm constructs edge matrix of the graph. Edge matrix contains 1 at i,j and j,i position if edge between node i and node j is up, 0 otherwise. This matrix is then used to run BFS to find if the graph is still connected for the combination of failures. If the graph is still connected, algorithm finds the probability of the combination and adds to the reliability of the whole system. Probability of the combination is calculated based on link state 0 or 1. If link state is 0, probability of link is multiplied to total probability of combination. If link state is 1, probability of link is subtracted from 1 and multiplied to total probability.
+
  \section{Algorithm}
 \begin{algorithm}
 \label{euclid}
@@ -82,6 +101,7 @@
 \EndProcedure
 \end{algorithmic}
 \end{algorithm} 
+ \pagebreak
  \section{Input}
  \begin{lstlisting}
 input.txt:
@@ -298,6 +318,7 @@ int graph_utils_disconnected(int numNodes, int edgeMatrix[][numNodes]) {
 
 \end{lstlisting}
 \begin{lstlisting}
+combinations.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -430,6 +451,7 @@ llist_st *reverseList(llist_st *list) {
 }
 \end{lstlisting}
 \begin{lstlisting}
+reliability.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
